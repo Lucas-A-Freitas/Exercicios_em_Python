@@ -25,3 +25,34 @@ lista_4.count(4)
 dicionario_vazio = {}
 type(dicionario_vazio) #De novo usei a função type só para ter certeza
 print(dicionario_vazio)
+
+
+# Exercício 6 - Crie um dicionário com 3 chaves e 3 valores e imprima na tela
+dicionario_1 = {"Lucas": 27, "Mario": 30, "Mariazinha": 55}
+print(dicionario_1)
+
+# Exercício 7 - Adicione mais um elemento ao dicionário criado no exercício anterior e imprima na tela
+
+dicionario_1["Cleber"] = 54
+print(dicionario_1)
+
+# Exercício 8 - Crie um dicionário com 3 chaves e 3 valores. 
+# Um dos valores deve ser uma lista de 2 elementos numéricos. 
+# Imprima o dicionário na tela.
+
+dicionario_2 = {"Parafuso": "0014", "Chave de fenda": "0011", "Martelo": ["1142", "8457"]}
+print(dicionario_2)
+
+# Exercício 9 - Crie uma lista de 4 elementos. O primeiro elemento deve ser uma string, 
+# o segundo uma tupla de 2 elementos, o terceiro um dcionário com 2 chaves e 2 valores e 
+# o quarto elemento um valor do tipo float.
+# Imprima a lista.
+
+elementos = ["Carro", ("rodas", 4), {"X-tudo": 15, "Hotdog": 10}, 12.5]
+print(elementos)
+
+# Exercício 10 - Considere a string abaixo. Imprima na tela apenas os caracteres da posição 1 a 18.
+frase = 'Cientista de Dados é o profissional mais sexy do século XXI'
+
+frase_cortada = frase[0:18]
+print(frase_cortada)
